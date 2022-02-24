@@ -1,0 +1,288 @@
+/**** Default css ****/
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+  
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+}
+
+/**** Header SECTION ****/
+.header-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    margin-top: 24px;
+}
+.fixed-with{
+    width: 1270px;
+    margin: auto;
+}
+.header{
+    background: #22c3a3;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img {
+    width: 183px;
+    height: auto;
+}
+
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    text-align: right;
+
+}
+
+
+
+.header-right ul li{
+    display: inline-block;
+    
+}
+
+.header-right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 10px;
+    line-height: 74px;
+}
+
+
+/**** BANNER SECTION ****/
+.banner{
+    background: url(https://i.ibb.co/qWz3km5/header-bg01.jpg) no-repeat center;
+    padding: 200px 0;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+
+.extra1 {
+    color: #fff;
+    max-width: 500px;
+    margin: auto;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+
+
+.extra {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 39px;
+    margin-bottom: -7px;
+    text-align: center;
+}
+
+.lrn1 {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #ddd;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/**** ABOUT SECTION ****/
+.about{
+    margin-top: 60px;
+}
+.about h2 {
+    font-size: 33px;
+    margin-bottom: 15px;
+}
+.about p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.contact-title{
+    width: 100%;
+}
+
+.cnt2{
+    margin-top: 20px;
+}
+
+/**** SERVICE SECTION ****/
+.service{
+    margin-top: 60px;
+}
+
+.service-item {
+    float: left;
+    width: 22.3%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+
+
+
+
+.service-item span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    color:#0dbf9b;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 ;
+}
+
+.service-item h3 {
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/**** BLOG SECTION  ****/
+.mrgn1 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.mrgn2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.blog-container {
+    margin: 60px 0;
+    border-top: 1px solid #0bbf9a;
+}
+
+.blog-left-content {
+    float: left;
+    width: 100%;
+    margin: 40px 0;
+    padding-bottom: 110px 0;
+    padding-bottom: 80px;
+}
+
+.blog-left-notification{
+    float: right;
+    width: 25%;
+}
+
+.blog-item{
+    margin-bottom: 30px;
+    
+}
+
+
+.blog-item img {
+    float: left;
+    width: 424px;
+    height: auto;
+    margin-right: 15px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.568);
+    font-size: 21px;
+}
+
+p {
+    margin-bottom: 14px;
+    color: rgba(0, 0, 0, 0.548);
+    font-size: 20px;
+}
+
+.blog-left-content .title {
+    margin-left: 5px;
+    transform: translate(42px, -16px);
+}
+
+
+      /**** CONTACT SECTION ****/
+
+  .contact p{
+      font-size: 20px;
+  }
+  .contact{
+      width: 30%;
+      font-size: 5px;
+  }
+
+  span.cnt-icon {
+    font-size: 25px;
+    transform: translateY(19px);
+    text-align: center;
+}
+.cnt2 {
+    margin-top: -20px;
+}
+
+.cnt-h {
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.cnt-p {
+    margin-top: 30px;
+}
+
+.contact-section {
+    background: #f6f6f6;
+    padding: 65px 0;
+}
+
+/**** SOCIAL MENU SECTION ****/
+.social-menu{
+    text-align: center;
+    padding: 20px 0;
+    background: #0dbf9b;
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a{
+    color:#fff;
+    font-size: 25px;
+    margin-left: 20px;
+    transition: .4s;
+    
+}
+
+
+
